@@ -1,0 +1,25 @@
+
+
+Alexandria:
+After saving the scan, what to do. what should the navigation be. List_of_books??
+
+Is there a default view for main acvitity?? what should it show.Can i show list of books??Pull it out from Navigation drawer and add
+to MainActivity.
+
+How often to update data. should my widget show updates of match??as and how happening.
+
+Should i use a sync adapter here?? required?? what are some techniques to use??Alarm manager + pending intent to trigger myintent service??
+
+
+Since rubric address only about widgets, should i focus on widget, or also work on app enhancements also.
+Can i change pagers to recyclerview?? like make a Main/Detail view.
+
+Football Scores app has content descriptions for all buttons.??
+Football Scores app supports layout mirroring? what does it mean??
+
+Extra error cases are found, accounted for, and called out in code comments.??
+
+For Collection widget, i choose listview. Can i show only those days when matches available. and skip days when no matches.
+
+
+

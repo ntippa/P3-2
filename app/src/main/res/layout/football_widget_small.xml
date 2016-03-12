@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/widget_margin">
+<LinearLayout
+    android:id="@+id/widget"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/touch_selector_white"
+    android:orientation="vertical">
+
+
+    <!--<TextView-->
+        <!--android:id="@+id/widget_date"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_gravity="center_horizontal"-->
+        <!--android:fontFamily="sans-serif"-->
+        <!--android:textSize="14sp"-->
+        <!--android:textColor="@color/primary_dark"-->
+        <!--tools:text="Monday ,dd/mm/yyyy" />-->
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="4dp">
+        <!--<LinearLayout-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:orientation="horizontal"-->
+            <!--android:padding="4dp">-->
+            <!-- -->
+
+        <!--</LinearLayout>-->
+
+        <TextView
+            android:id="@+id/widget_home_team"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:fontFamily="sans-serif"
+            android:textSize="8sp"
+            android:textColor="@color/primary_text"
+            tools:text="SC Freiburg" />
+
+        <TextView
+            android:id="@+id/widget_score"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:fontFamily="sans-serif"
+            android:textSize="12sp"
+            android:paddingLeft="@dimen/abc_control_padding_material"
+            android:paddingRight="@dimen/abc_control_padding_material"
+            android:textColor="@color/primary_text"
+            tools:text="2-1" />
+
+        <TextView
+            android:id="@+id/widget_away_team"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:fontFamily="sans-serif"
+            android:textSize="8sp"
+            android:textColor="@color/primary_text"
+            tools:text="Red Bull Leipzig" />
+
+    </LinearLayout>
+</LinearLayout>
+</FrameLayout>
