@@ -18,7 +18,7 @@ android {
         }
     }
     buildTypes.each{
-        it.buildConfigField 'String', 'FOOTBALL_API_KEY', "\"2bb199203e144c65a442176a93f4ea24\""
+        it.buildConfigField 'String', 'FOOTBALL_API_KEY', " "
     }
 }
 
